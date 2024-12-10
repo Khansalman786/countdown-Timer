@@ -1,0 +1,84 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container__countdownTime {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 80vw;
+}
+.container__countdownTIme_labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.label {
+  padding: 10px 20px;
+  width: 120px;
+  text-align: center;
+  font-size: 30px;
+}
+.container__inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 20px;
+}
+#input {
+  padding: 10px 20px;
+  font-size: 45px;
+  width: 120px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.container__btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+.btns {
+  padding: 10px;
+  font-size: 20px;
+  width: 240px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+.colon {
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.start {
+  background-color: green;
+  color: white;
+}
+.reset {
+  background-color: red;
+  color: white;
+}
+
+.stop {
+  display: none;
+  background-color: orange;
+  color: white;
+}
